@@ -1,0 +1,29 @@
+What is <windows.h>?
+It is a Windows-specific header file that gives you access to system-level functions like:
+Changing text color in the console
+Controlling the cursor
+Making sounds, and more!
+Different functions
+GetStdHandle(STD_OUTPUT_HANDLE) gets the console's output handle.
+SetConsoleTextAttribute() sets the text color.
+colorCode is a number (like 1 for blue, 4 for red, etc.)
+
+Different Colour codes are as follows
+🎨 Text (Foreground) Color Codes
+Code	Color
+0	Black
+1	Blue
+2	Green
+3	Aqua (Cyan)
+4	Red
+5	Purple
+6	Yellow
+7	White (default)
+8	Gray
+9	Light Blue
+10	Light Green
+11	Light Aqua
+12	Light Red
+13	Light Purple
+14	Light Yellow
+15	Bright White
