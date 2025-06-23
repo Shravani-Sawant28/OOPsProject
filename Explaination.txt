@@ -27,3 +27,6 @@ Code	Color
 13	Light Purple
 14	Light Yellow
 15	Bright White
+
+
+### Admin Password = 53616373
